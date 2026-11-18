@@ -54,7 +54,7 @@ public class Task {
 
         int userInt = InputHelper.getRangedInt(scan, "Pick a number between 1-100 to count how many times that number appears in the data.", 1, 100);
         int timesFound = 0;
-        int position = 0;
+        int position = -1;
         boolean intFound = false;
 
         for (int x : dataPoints) {
